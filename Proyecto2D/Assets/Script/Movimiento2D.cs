@@ -49,6 +49,10 @@ public class Movimiento2D : MonoBehaviour
     [SerializeField] private AudioClip AudioVictoria;
     [SerializeField] private AudioClip AudioFondo;
 
+    [Header ("TP")]
+    [SerializeField] private Transform portalEntrada; 
+    [SerializeField] private Transform portalSalida;
+
 
     [Header("Animacion")]
 
@@ -122,7 +126,7 @@ public class Movimiento2D : MonoBehaviour
         Gizmos.DrawWireCube(controladorSuelo.position, dimensionesCaja);
     }
 
-
+   
     
     private void OnCollisionEnter2D(Collision2D collision)
     {   

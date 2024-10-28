@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3524683798434721316}
   - component: {fileID: 5111565600852518376}
   - component: {fileID: 966306418168478358}
-  - component: {fileID: 8549098647597436981}
   - component: {fileID: 209909775583636757}
   - component: {fileID: 9044684866827357066}
+  - component: {fileID: 3053485434022458167}
   m_Layer: 0
   m_Name: Jugador
   m_TagString: Player
@@ -110,54 +110,17 @@ MonoBehaviour:
   controladorSuelo: {fileID: 6370020148112711630}
   dimensionesCaja: {x: 1, y: 0.25, z: 0}
   Ensuelo: 1
+  contadorBronce: 0
+  contadorPlata: 0
+  contadorOro: 0
+  Audiocolectar: {fileID: 8300000, guid: 5211338d6cdd9784bbe7c430722fb882, type: 3}
+  AudioMorir: {fileID: 8300000, guid: 3292f5244fe76bb49a41a47f5de01752, type: 3}
+  AudioSalto: {fileID: 8300000, guid: 11202a202c2c9f546877b974846e9ba9, type: 3}
+  AudioVictoria: {fileID: 8300000, guid: d46784eff321806448f31c10d87cb8c3, type: 3}
+  AudioFondo: {fileID: 8300000, guid: 44fa6e4bf5064884195c87b1c5fbd02b, type: 3}
   MuerteJugador:
     m_PersistentCalls:
       m_Calls: []
---- !u!61 &8549098647597436981
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 321653113148577295}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: f8c47d0be1993d54694d87948a8d9671, type: 2}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.027995825, y: -0.009331882}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.8569112, y: 1.0186636}
-  m_EdgeRadius: 0
 --- !u!50 &209909775583636757
 Rigidbody2D:
   serializedVersion: 4
@@ -206,6 +169,41 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!70 &3053485434022458167
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321653113148577295}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.01781845, y: 0}
+  m_Size: {x: 0.82183075, y: 1}
+  m_Direction: 0
 --- !u!1 &9169475430922632298
 GameObject:
   m_ObjectHideFlags: 0

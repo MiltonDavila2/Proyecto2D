@@ -12,6 +12,8 @@ TagManager:
   - Saltito
   - Spikes
   - Muerte
+  - Portal
+  - PortalSalida
   layers:
   - Default
   - TransparentFX
