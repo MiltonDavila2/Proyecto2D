@@ -9721,9 +9721,21 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 505
       objectReference: {fileID: 0}
+    - target: {fileID: 4912847814384297921, guid: 8e3ba75239d7612448dd5ba24e64ef0a, type: 3}
+      propertyPath: m_text
+      value: 'Hecho por Milton Davila '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458727551521976738, guid: 8e3ba75239d7612448dd5ba24e64ef0a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8223935479398744283, guid: 8e3ba75239d7612448dd5ba24e64ef0a, type: 3}
       propertyPath: m_Name
       value: MenuYPausa
+      objectReference: {fileID: 0}
+    - target: {fileID: 8223935479398744283, guid: 8e3ba75239d7612448dd5ba24e64ef0a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9193635842117949136, guid: 8e3ba75239d7612448dd5ba24e64ef0a, type: 3}
       propertyPath: m_AnchoredPosition.y
